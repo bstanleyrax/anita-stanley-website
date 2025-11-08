@@ -43,7 +43,7 @@ function ProductsContent() {
       rating: 4.8,
       reviews: 24,
       size: '18 inches',
-      image: "/products/amethyst-necklace.png",
+      image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&h=400&fit=crop",
       description: "Elegant handcrafted necklace featuring genuine amethyst crystals"
     },
     {
@@ -57,7 +57,7 @@ function ProductsContent() {
       rating: 4.9,
       reviews: 31,
       size: '7.5 inches',
-      image: "/products/rose-quartz-bracelet.png",
+      image: "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400&h=400&fit=crop",
       description: "Delicate bracelet with rose quartz beads and silver clasp"
     },
     {
@@ -71,7 +71,7 @@ function ProductsContent() {
       rating: 4.7,
       reviews: 18,
       size: '1.5 inches drop',
-      image: "/products/turquoise-earrings.png",
+      image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400&h=400&fit=crop",
       description: "Stunning turquoise drop earrings with sterling silver hooks"
     },
     {
@@ -85,7 +85,7 @@ function ProductsContent() {
       rating: 4.6,
       reviews: 42,
       size: '100g / 4-8mm',
-      image: "/products/ocean-beads.png",
+      image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400&h=400&fit=crop",
       description: "100g mix of blue and teal glass beads in various sizes"
     },
     {
@@ -99,7 +99,7 @@ function ProductsContent() {
       rating: 4.8,
       reviews: 27,
       size: '50 pcs / 8mm',
-      image: "/products/crystal-beads.png",
+      image: "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=400&h=400&fit=crop",
       description: "Premium crystal beads, 50 pieces, 8mm diameter"
     },
     {
@@ -113,7 +113,7 @@ function ProductsContent() {
       rating: 4.9,
       reviews: 56,
       size: 'Complete Set',
-      image: "/products/beginner-kit.png",
+      image: "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=400&h=400&fit=crop",
       description: "Complete starter kit with beads, wire, tools, and instructions"
     },
     // Additional products for each category
@@ -128,7 +128,7 @@ function ProductsContent() {
       rating: 4.9,
       reviews: 15,
       size: '20 inches',
-      image: "/products/amethyst-necklace.png",
+      image: "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=400&h=400&fit=crop",
       description: "Classic freshwater pearl necklace with gold clasp"
     },
     {
@@ -142,7 +142,7 @@ function ProductsContent() {
       rating: 4.7,
       reviews: 12,
       size: '16 inches chain',
-      image: "/products/amethyst-necklace.png",
+      image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&h=400&fit=crop",
       description: "Natural gemstone pendant on sterling silver chain"
     },
     {
@@ -156,7 +156,7 @@ function ProductsContent() {
       rating: 4.6,
       reviews: 22,
       size: 'Adjustable',
-      image: "/products/rose-quartz-bracelet-2.png",
+      image: "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400&h=400&fit=crop",
       description: "Handwoven leather bracelet with metal accents"
     },
     {
@@ -170,7 +170,7 @@ function ProductsContent() {
       rating: 4.8,
       reviews: 19,
       size: '7 inches',
-      image: "/products/rose-quartz-bracelet.png",
+      image: "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400&h=400&fit=crop",
       description: "Silver charm bracelet with customizable charms"
     },
     {
@@ -184,7 +184,7 @@ function ProductsContent() {
       rating: 4.5,
       reviews: 33,
       size: 'Small, Medium, Large',
-      image: "/products/turquoise-earrings.png",
+      image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400&h=400&fit=crop",
       description: "Set of 3 gold-plated hoop earrings in different sizes"
     },
     {
@@ -198,7 +198,7 @@ function ProductsContent() {
       rating: 4.7,
       reviews: 28,
       size: '6mm',
-      image: "/products/turquoise-earrings.png",
+      image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400&h=400&fit=crop",
       description: "Sparkling crystal stud earrings with hypoallergenic posts"
     },
     {
@@ -212,7 +212,7 @@ function ProductsContent() {
       rating: 4.4,
       reviews: 37,
       size: '150g / 6-12mm',
-      image: "/products/crystal-beads.png",
+      image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400&h=400&fit=crop",
       description: "Natural wooden beads in assorted shapes and sizes"
     },
     {
@@ -226,7 +226,7 @@ function ProductsContent() {
       rating: 4.9,
       reviews: 41,
       size: 'Premium Set',
-      image: "/products/beginner-kit.png",
+      image: "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=400&h=400&fit=crop",
       description: "Professional beading kit with premium materials and tools"
     },
     {
@@ -240,7 +240,7 @@ function ProductsContent() {
       rating: 4.6,
       reviews: 29,
       size: 'Starter Set',
-      image: "/products/beginner-kit.png",
+      image: "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=400&h=400&fit=crop",
       description: "Everything you need to create beautiful earrings at home"
     },
     {
@@ -254,7 +254,7 @@ function ProductsContent() {
       rating: 4.8,
       reviews: 52,
       size: '3-piece set',
-      image: "/products/beginner-kit.png",
+      image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400&h=400&fit=crop",
       description: "Professional 3-piece pliers set for jewelry making"
     },
     {
@@ -268,7 +268,7 @@ function ProductsContent() {
       rating: 4.5,
       reviews: 44,
       size: '12" x 9"',
-      image: "/products/beginner-kit.png",
+      image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400&h=400&fit=crop",
       description: "Non-slip beading mat with compartment organizer"
     },
     {
@@ -282,7 +282,7 @@ function ProductsContent() {
       rating: 4.7,
       reviews: 38,
       size: '2-piece set',
-      image: "/products/beginner-kit.png",
+      image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400&h=400&fit=crop",
       description: "Precision wire cutters and crimping tool set"
     }
   ];
