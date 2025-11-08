@@ -18,6 +18,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: companies/anita-stanley-website/anita-stanley-website
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -26,19 +29,19 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
+          cache: 'npm'
+          cache-dependency-path: companies/anita-stanley-website/anita-stanley-website/package-lock.json
       
       - name: Install dependencies
         run: npm ci
-        working-directory: ./companies/anita-stanley-website/anita-stanley-website
       
       - name: Build with Next.js
         run: npm run build
-        working-directory: ./companies/anita-stanley-website/anita-stanley-website
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./companies/anita-stanley-website/anita-stanley-website/out
+          path: companies/anita-stanley-website/anita-stanley-website/out
 
   deploy:
     environment:
