@@ -26,18 +26,19 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: 'npm'
       
       - name: Install dependencies
         run: npm ci
+        working-directory: ./companies/anita-stanley-website/anita-stanley-website
       
       - name: Build with Next.js
         run: npm run build
+        working-directory: ./companies/anita-stanley-website/anita-stanley-website
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: ./companies/anita-stanley-website/anita-stanley-website/out
 
   deploy:
     environment:
