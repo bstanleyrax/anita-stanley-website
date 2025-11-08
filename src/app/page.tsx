@@ -1,17 +1,18 @@
+import Link from 'next/link';
 import MultiImageCarousel from '@/components/MultiImageCarousel';
 import Header from '@/components/Header';
 
 export default function Home() {
   const carouselImages = [
-    '/products/amethyst-necklace.png',
-    '/products/rose-quartz-bracelet.png',
-    '/products/turquoise-earrings.png',
-    '/products/ocean-beads.png',
-    '/products/crystal-beads.png',
-    '/products/beginner-kit.png',
-    '/products/rose-quartz-bracelet-2.png',
-    '/products/crystal-beads.png',
-    '/products/ocean-beads.png'
+    'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&h=400&fit=crop',
+    'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400&h=400&fit=crop',
+    'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400&h=400&fit=crop',
+    'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400&h=400&fit=crop',
+    'https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=400&h=400&fit=crop',
+    'https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=400&h=400&fit=crop',
+    'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400&h=400&fit=crop',
+    'https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=400&h=400&fit=crop',
+    'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400&h=400&fit=crop'
   ];
 
   return (
@@ -36,9 +37,9 @@ export default function Home() {
             From elegant necklaces to DIY craft kits, create something beautiful.
           </p>
           <div className="flex justify-center">
-            <a href="/products" className="bg-purple-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-purple-700 transition-colors">
+            <Link href="/products" className="bg-purple-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-purple-700 transition-colors">
               View Catalog
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -48,7 +49,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h3 className="text-3xl font-bold text-center text-gray-900 mb-12">Featured Products</h3>
           <div className="grid md:grid-cols-3 gap-8">
-            <a 
+            <Link 
               href="/products?category=necklaces" 
               className="text-center p-6 border rounded-lg hover:shadow-lg transition-shadow cursor-pointer block"
             >
@@ -58,8 +59,8 @@ export default function Home() {
               <h4 className="text-xl font-semibold mb-2">Handmade Jewelry</h4>
               <p className="text-gray-600 mb-4">Unique, one-of-a-kind pieces crafted with care and attention to detail.</p>
               <p className="text-purple-600 font-semibold">Starting at $25</p>
-            </a>
-            <a 
+            </Link>
+            <Link 
               href="/products?category=beads" 
               className="text-center p-6 border rounded-lg hover:shadow-lg transition-shadow cursor-pointer block"
             >
@@ -69,8 +70,8 @@ export default function Home() {
               <h4 className="text-xl font-semibold mb-2">Premium Beads</h4>
               <p className="text-gray-600 mb-4">High-quality beads in various materials, colors, and sizes for your projects.</p>
               <p className="text-purple-600 font-semibold">From $5</p>
-            </a>
-            <a 
+            </Link>
+            <Link 
               href="/products?category=kits" 
               className="text-center p-6 border rounded-lg hover:shadow-lg transition-shadow cursor-pointer block"
             >
@@ -80,7 +81,7 @@ export default function Home() {
               <h4 className="text-xl font-semibold mb-2">DIY Kits</h4>
               <p className="text-gray-600 mb-4">Complete kits with everything you need to create beautiful jewelry at home.</p>
               <p className="text-purple-600 font-semibold">$15 - $45</p>
-            </a>
+            </Link>
           </div>
         </div>
       </section>
