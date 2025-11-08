@@ -3,9 +3,9 @@ import Carousel from '@/components/Carousel';
 
 export default function About() {
   const founderImages = [
-    '/founder/founder-1.png',
-    '/founder/founder-2.png',
-    '/founder/founder-3.png'
+    'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop',
+    'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop',
+    'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop'
   ];
 
   return (
@@ -20,9 +20,9 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div>
               <img 
-                src="/about/story.png" 
+                src="https://images.unsplash.com/photo-1611085583191-a3b181a88401?w=600&h=400&fit=crop" 
                 alt="Jewelry making workspace"
-                className="rounded-lg shadow-lg w-full object-contain bg-white p-4"
+                className="rounded-lg shadow-lg w-full object-cover"
               />
             </div>
             <div>
@@ -59,9 +59,9 @@ export default function About() {
             </div>
             <div className="order-1 md:order-2">
               <img 
-                src="/about/mission.png" 
+                src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=600&h=400&fit=crop" 
                 alt="Beautiful handmade jewelry"
-                className="rounded-lg shadow-lg w-full object-contain bg-white p-4"
+                className="rounded-lg shadow-lg w-full object-cover"
               />
             </div>
           </div>
