@@ -56,8 +56,8 @@ export default function Home() {
               <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">💎</span>
               </div>
-              <h4 className="text-xl font-semibold mb-2">Handmade Jewelry</h4>
-              <p className="text-gray-600 mb-4">Unique, one-of-a-kind pieces crafted with care and attention to detail.</p>
+              <h4 className="text-xl font-semibold mb-2 text-gray-900">Handmade Jewelry</h4>
+              <p className="text-gray-700 mb-4">Unique, one-of-a-kind pieces crafted with care and attention to detail.</p>
               <p className="text-purple-600 font-semibold">Starting at $25</p>
             </Link>
             <Link 
@@ -67,8 +67,8 @@ export default function Home() {
               <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">🔮</span>
               </div>
-              <h4 className="text-xl font-semibold mb-2">Premium Beads</h4>
-              <p className="text-gray-600 mb-4">High-quality beads in various materials, colors, and sizes for your projects.</p>
+              <h4 className="text-xl font-semibold mb-2 text-gray-900">Premium Beads</h4>
+              <p className="text-gray-700 mb-4">High-quality beads in various materials, colors, and sizes for your projects.</p>
               <p className="text-purple-600 font-semibold">From $5</p>
             </Link>
             <Link 
@@ -78,8 +78,8 @@ export default function Home() {
               <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">🎨</span>
               </div>
-              <h4 className="text-xl font-semibold mb-2">DIY Kits</h4>
-              <p className="text-gray-600 mb-4">Complete kits with everything you need to create beautiful jewelry at home.</p>
+              <h4 className="text-xl font-semibold mb-2 text-gray-900">DIY Kits</h4>
+              <p className="text-gray-700 mb-4">Complete kits with everything you need to create beautiful jewelry at home.</p>
               <p className="text-purple-600 font-semibold">$15 - $45</p>
             </Link>
           </div>
