@@ -71,17 +71,17 @@ export default function Cart() {
                       <div className="flex justify-between items-center mt-4">
                         <div className="flex items-center gap-3">
                           <label className="text-sm font-medium text-gray-700">Quantity:</label>
-                          <div className="flex items-center border border-gray-300 rounded-lg">
+                          <div className="flex items-center border border-gray-300 rounded-lg bg-white">
                             <button
                               onClick={() => updateQuantity(item.id, item.quantity - 1)}
-                              className="px-3 py-1 hover:bg-gray-100 transition-colors"
+                              className="px-3 py-1 hover:bg-gray-100 transition-colors text-gray-900"
                             >
                               -
                             </button>
-                            <span className="px-4 py-1 border-x border-gray-300">{item.quantity}</span>
+                            <span className="px-4 py-1 border-x border-gray-300 text-gray-900 font-semibold">{item.quantity}</span>
                             <button
                               onClick={() => updateQuantity(item.id, item.quantity + 1)}
-                              className="px-3 py-1 hover:bg-gray-100 transition-colors"
+                              className="px-3 py-1 hover:bg-gray-100 transition-colors text-gray-900"
                             >
                               +
                             </button>
